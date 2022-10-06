@@ -1,0 +1,106 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+    background-image: url(images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 25px;
+    height: 50rem;
+}
+
+.logo{
+    height: 30px;
+}
+
+.container-immersive{
+    width: 90%;
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.h1-immersive{
+    border: 2px solid #fff;
+    padding: 2rem 1rem 1.5rem 2rem;
+    margin-top: 190px;
+}
+
+.container-immersive .h1-immersive h1{
+    text-transform:uppercase ;
+    letter-spacing: 0.16rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    height: 210px;
+    color: white;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    height: 20px;
+}
+
+.nav-links{
+    display: none;
+}
+
+.nav-links ol li{
+    list-style: none;
+}
+
+.nav-links ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section1{
+    padding: 9.6rem 2.4rem;
+    /* height: 738px; */
+}
+
+.section1-container{
+    width: 90%;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+.section1-container img{
+    display: block;
+    margin: 0 auto 4.7rem;
+    width: 100%;
+    max-width: 55rem;
+}
+
+.section1-text{
+    padding: .6rem 2.4rem;
+    height: 123px;    
+}
+
+.section1-text h2{
+    margin: 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.6rem;
+    height: 48px;
+}
+
+.section1-text p{
+    font-family: "Alata", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #8c8c8c;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+@media screen and (min-width:1200px) {
+   
+}
+
